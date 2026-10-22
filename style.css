@@ -103,6 +103,34 @@ section {
     line-height: 1.6;
 }
 
+/* Education section */
+#education h2 {
+    margin-bottom: 20px;
+    color: #14213d;
+}
+
+.education-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.education-card {
+    background-color: #e2eafc;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.education-card h3 {
+    margin-bottom: 10px;
+    color: #14213d;
+}
+
+.education-card p {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
 footer {
     text-align: center;
     padding: 20px;
