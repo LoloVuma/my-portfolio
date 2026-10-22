@@ -148,6 +148,9 @@ section {
     background-color: #e2eafc;
     padding: 20px;
     border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .project-card h3 {
@@ -164,9 +167,32 @@ section {
     color: #14213d;
     font-weight: bold;
     text-decoration: none;
+    margin-top: auto;
 }
 
 .project-card a:hover {
+    text-decoration: underline;
+}
+
+
+/* Contact section */
+#contact h2 {
+    margin-bottom: 15px;
+    color: #14213d;
+}
+
+#contact p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+#contact a {
+    color: #14213d;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#contact a:hover {
     text-decoration: underline;
 }
 
@@ -183,11 +209,14 @@ footer {
         text-align: center;
     }
 
-    .skills-container {
+    .skills-container,
+    .education-container,
+    .projects-container {
         grid-template-columns: 1fr;
     }
 
-        .projects-container {
-        grid-template-columns: 1fr;
+    header nav {
+        flex-wrap: wrap;
+        gap: 15px;
     }
 }
