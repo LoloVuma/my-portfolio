@@ -47,6 +47,16 @@ section {
     border-radius: 8px;
 }
 
+#about h2 {
+    margin-bottom: 15px;
+    color: #14213d;
+}
+
+#about p {
+    margin-bottom: 15px;
+    line-height: 1.8;
+}
+
 footer {
     text-align: center;
     padding: 20px;
